@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u0427\u041C\\chm1_pm24\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6F31059-34D6-47D7-BAE4-A436B35B719B}|chm1_pm24.vcxproj|C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u0427\u041C\\chm1_pm24\\chm1_pm24.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D6F31059-34D6-47D7-BAE4-A436B35B719B}|chm1_pm24.vcxproj|solutionrelative:chm1_pm24.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chm1_pm24.cpp",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u0427\u041C\\chm1_pm24\\chm1_pm24.cpp",
+              "RelativeDocumentMoniker": "chm1_pm24.cpp",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u0427\u041C\\chm1_pm24\\chm1_pm24.cpp",
+              "RelativeToolTip": "chm1_pm24.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-17T07:46:16.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

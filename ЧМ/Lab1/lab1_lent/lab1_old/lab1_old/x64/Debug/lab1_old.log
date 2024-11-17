@@ -1,0 +1,4 @@
+﻿  lab1_old.cpp
+C:\Универ\ЧМ\lab1_lent\lab1_old\lab1_old.cpp(133,1): warning C4715: readVector: значение возвращается не при всех путях выполнения
+C:\Универ\ЧМ\lab1_lent\lab1_old\lab1_old.cpp(118,1): warning C4715: readMatrix: значение возвращается не при всех путях выполнения
+  lab1_old.vcxproj -> C:\Универ\ЧМ\lab1_lent\lab1_old\x64\Debug\lab1_old.exe

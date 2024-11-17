@@ -1,0 +1,4 @@
+﻿  lab2_chgpt.cpp
+C:\Универ\ЧМ\lab2_chgpt\lab2_chgpt.cpp(10,10): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Универ\ЧМ\lab2_chgpt\lab2_chgpt.cpp(23,10): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  lab2_chgpt.vcxproj -> C:\Универ\ЧМ\lab2_chgpt\x64\Debug\lab2_chgpt.exe

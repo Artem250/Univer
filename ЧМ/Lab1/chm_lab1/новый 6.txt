@@ -1,0 +1,56 @@
+for (int ij = 0; ij < n - 1; ij++)
+{
+   int ijl = ij;
+   int ilu = ij + 1;
+
+   for (int i = ij + 1; i < n; i++)
+   {
+      int il = i;
+      int jl = m - i + ij + 0;
+      if (il < 0 || jl < 0) continue;
+
+      double sum = 0.0;
+      for (int k = 0; k < ij; k++)
+      {
+
+         int kll = m - i + k + 0;
+         int klu = ij;
+         if (kll < 0 || klu < 0) continue;
+
+         int jlu = m + k - ij;
+         if (jlu < 0) continue;
+         sum += al[il][kll] * au[klu][jlu];
+
+      }
+      al[il][jl] = (al[il][jl] - sum) / di[ij]; // au[ijl][ijl];
+   }
+
+
+
+   int il = ilu;
+   for (int j = il; j < n; j++)
+   {
+      int jl = m + il - j;
+      if (il < 0 || jl < 0) continue;
+
+      double sum = 0.0;
+      for (int k = 0; k < ilu; k++)
+      {
+         int kll = m + k - ilu + 0;
+         int klu = j;
+         if (kll < 0 || klu < 0) continue;
+
+         int jlu = m + k - j;
+         if (jlu < 0) continue;
+         sum += al[il][kll] * au[klu][jlu];
+      }
+
+      if (jl == m) {
+         di[il] = (di[il] - sum);
+      }
+      else {
+         int klu = j;
+         au[klu][jl] = (au[klu][jl] - sum);
+      }
+   }
+}

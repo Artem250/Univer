@@ -1,0 +1,4 @@
+﻿  PZ1.cpp
+C:\Универ\ЧМ\staroe\chmdsu_budnik1\PZ1.cpp(32,13): warning C4244: инициализация: преобразование "double" в "real", возможна потеря данных
+C:\Универ\ЧМ\staroe\chmdsu_budnik1\PZ1.cpp(65,13): warning C4244: инициализация: преобразование "double" в "real", возможна потеря данных
+  chmdsu_budnik1.vcxproj -> C:\Универ\ЧМ\staroe\chmdsu_budnik1\x64\Debug\chmdsu_budnik1.exe

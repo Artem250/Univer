@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1727259660 source:c:\Универ\ЧМ\chm_laba1_codeblocks\chm_laba1\main.cpp
+	<fstream>
+	<iostream>
+	<math.h>
+	<stdio.h>
+

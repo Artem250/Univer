@@ -1,0 +1,51 @@
+for (int ij = 0; ij < n; ij++)
+{
+   ///int ijl = ij;
+   int ilu = ij + 1;
+
+   for (int i = ij + 1; i < n; i++)
+   {
+      //int il = i;
+      //int jl = m - i + ij;
+
+      double sum = 0.0;
+      /// суммирование членов Lij*Uij
+      for (int k = 0; k < ij; k++)
+		 ///L
+         //int kll = m - i + k;
+		 ///U
+         //int klu = ij;
+
+         //int jlu = m + k - ij;
+         sum += L[i][k + m - i] * U[ij][k + m - ij];
+
+      }
+      L[i][ij + m - i] = (L[i][ij + m - i] - sum) / D[ij]; // U[ijl][ijl];
+   }
+   //int il = ilu;
+   for (int j = ij + 1; j < n; j++)
+   {
+      //int jl = ij + m - j + 1;
+      double sum = 0.0;
+      
+      for (int k = 0; k < ij + 1; k++)
+      {
+         // L
+         //int kll = m + k - ilu + 0;
+         // U
+         //int klu = j;
+         if (k + m - (ij + 1) < 0 || j < 0) continue;
+
+         //int jlu = m + k - j;
+         sum += L[ij + 1][k + m - (ij + 1)] * U[j][k + m - j];
+      }
+
+      //if (ij + m - j + 1 == m) {
+      if (ij == j + 1) {
+         D[ij + 1] = (D[ij + 1] - sum);
+      }
+      else {
+         //int klu = j;
+         U[j][jl = ij + m - j + 1] = (U[j][jl = ij + m - j + 1] - sum);
+      }
+   }

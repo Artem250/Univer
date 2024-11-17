@@ -1,0 +1,50 @@
+for (int ij = 0; ij < n; ij++)
+{
+   //int ijl = ij;
+   int ilu = ij + 1;
+
+   for (int i = ij + 1; i < n; i++)
+   {
+      int il = i;
+      int jl = m - i + ij;
+
+      double sum = 0.0;
+      // суммирование членов alij*auij
+      for (int k = 0; k < ij; k++) {
+		 //al
+         int kll = m - i + k;
+		 //au
+         int klu = ij;
+
+         int jlu = m + k - ij;
+         sum += al[il][kll] * au[klu][jlu];
+
+      }
+      al[il][jl] = (al[il][jl] - sum) / di[ij]; // au[ijl][ijl];
+   }
+   int il = ilu;
+   for (int j = il; j < n; j++)
+   {
+      int jl = m + il - j;
+      double sum = 0.0;
+      
+      for (int k = 0; k < ilu; k++)
+      {
+         // al
+         int kll = m + k - ilu + 0;
+         // au
+         int klu = j;
+         if (kll < 0 || klu < 0) continue;
+
+         int jlu = m + k - j;
+         sum += al[il][kll] * au[klu][jlu];
+      }
+
+      if (jl == m) {
+         di[il] = (di[il] - sum);
+      }
+      else {
+         int klu = j;
+         au[klu][jl] = (au[klu][jl] - sum);
+      }
+   }

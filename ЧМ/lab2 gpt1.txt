@@ -1,0 +1,339 @@
+#include <iostream>
+#include <vector>
+#include <cmath>
+
+using namespace std;
+
+using Matrix = vector<vector<double>>;
+using Vector = vector<double>;
+
+// Функция LU-факторизации для блока A_kk
+void luDecompose(Matrix& A, int blockSize) {
+    for (int k = 0; k < blockSize; ++k) {
+        for (int i = k + 1; i < blockSize; ++i) {
+            A[i][k] /= A[k][k];
+            for (int j = k + 1; j < blockSize; ++j) {
+                A[i][j] -= A[i][k] * A[k][j];
+            }
+        }
+    }
+}
+
+// Функция для решения системы LY = B
+void forwardSubstitution(const Matrix& L, Vector& Y, const Vector& B, int blockSize) {
+    for (int i = 0; i < blockSize; ++i) {
+        Y[i] = B[i];
+        for (int j = 0; j < i; ++j) {
+            Y[i] -= L[i][j] * Y[j];
+        }
+    }
+}
+
+// Функция для решения системы UX = Y
+void backwardSubstitution(const Matrix& U, Vector& X, const Vector& Y, int blockSize) {
+    for (int i = blockSize - 1; i >= 0; --i) {
+        X[i] = Y[i];
+        for (int j = i + 1; j < blockSize; ++j) {
+            X[i] -= U[i][j] * X[j];
+        }
+        X[i] /= U[i][i];
+    }
+}
+
+// Функция для решения системы A * X = B для одного блока
+void solveBlock(Matrix A_kk, Vector& X, const Vector& B, int blockSize) {
+    luDecompose(A_kk, blockSize);
+
+    Vector Y(blockSize);
+    forwardSubstitution(A_kk, Y, B, blockSize);
+    backwardSubstitution(A_kk, X, Y, blockSize);
+}
+
+// Метод блочной релаксации
+void blockRelaxation(const Matrix& A, const Vector& F, Vector& X, int n, int blockSize, double omega, double tolerance, int maxIterations) {
+    int numBlocks = n / blockSize;
+    Vector R(n);
+
+    for (int iter = 0; iter < maxIterations; ++iter) {
+        for (int k = 0; k < numBlocks; ++k) {
+            int start = k * blockSize;
+            int end = start + blockSize;
+
+            // Вычисляем R_k^(l)
+            for (int i = start; i < end; ++i) {
+                R[i] = F[i];
+                for (int j = 0; j < n; ++j) {
+                    if (j < start || j >= end) {
+                        R[i] -= A[i][j] * X[j];
+                    }
+                }
+            }
+
+            // Решаем A_kk * Y_k^(l+1) = R_k^(l)
+            Vector Y(blockSize);
+            solveBlock(Matrix(A.begin() + start, A.begin() + end), Y, R, blockSize);
+
+            // Обновляем X^(l+1)_k
+            for (int i = start; i < end; ++i) {
+                X[i] += omega * (Y[i - start] - X[i]);
+            }
+        }
+
+        // Вычисляем невязку и проверяем на сходимость
+        double residual = 0.0;
+        for (int i = 0; i < n; ++i) {
+            double Ax_i = 0.0;
+            for (int j = 0; j < n; ++j) {
+                Ax_i += A[i][j] * X[j];
+            }
+            residual += (F[i] - Ax_i) * (F[i] - Ax_i);
+        }
+        residual = sqrt(residual);
+
+        cout << "Итерация " << iter << ", Невязка: " << residual << endl;
+
+        if (residual < tolerance) {
+            cout << "Метод сошелся на итерации " << iter << endl;
+            break;
+        }
+    }
+}
+
+int main() {
+    int n = 6; // размер матрицы
+    int blockSize = 2;
+    double omega = 1.5;
+    double tolerance = 1e-6;
+    int maxIterations = 100;
+
+    Matrix A = {
+        {4, -1, 0, -1, 0, 0},
+        {-1, 4, -1, 0, -1, 0},
+        {0, -1, 4, -1, 0, -1},
+        {-1, 0, -1, 4, -1, 0},
+        {0, -1, 0, -1, 4, -1},
+        {0, 0, -1, 0, -1, 4}
+    };
+
+    Vector F = {15, 10, 10, 10, 10, 15};
+    Vector X(n, 0.0); // начальное приближение
+
+    blockRelaxation(A, F, X, n, blockSize, omega, tolerance, maxIterations);
+
+    cout << "Решение X:" << endl;
+    for (double xi : X) {
+        cout << xi << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+то же самое
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+#include <vector>
+#include <cmath>
+
+using namespace std;
+
+using Matrix = vector<vector<double>>;
+using Vector = vector<double>;
+
+// Функция LU-факторизации для блока A_kk
+void luDecompose(Matrix& A, int blockSize) {
+   for (int k = 0; k < blockSize; ++k) {
+      for (int i = k + 1; i < blockSize; ++i) {
+         if (A[k][k] != 0) A[i][k] /= A[k][k];
+         for (int j = k + 1; j < blockSize; ++j) {
+            A[i][j] -= A[i][k] * A[k][j];
+         }
+      }
+   }
+}
+
+// Функция для решения системы LY = B
+void forwardSubstitution(const Matrix& L, Vector& Y, const Vector& B, int blockSize) {
+   for (int i = 0; i < blockSize; ++i) {
+      Y[i] = B[i];
+      for (int j = 0; j < i; ++j) {
+         Y[i] -= L[i][j] * Y[j];
+      }
+   }
+}
+
+// Функция для решения системы UX = Y
+void backwardSubstitution(const Matrix& U, Vector& X, const Vector& Y, int blockSize) {
+   for (int i = blockSize - 1; i >= 0; --i) {
+      X[i] = Y[i];
+      for (int j = i + 1; j < blockSize; ++j) {
+         X[i] -= U[i][j] * X[j];
+      }
+      X[i] /= U[i][i];
+   }
+}
+
+// Функция для решения системы A * X = B для одного блока
+void solveBlock(Matrix A_kk, Vector& X, const Vector& B, int blockSize) {
+   luDecompose(A_kk, blockSize);
+
+   Vector Y(blockSize);
+   forwardSubstitution(A_kk, Y, B, blockSize);
+   backwardSubstitution(A_kk, X, Y, blockSize);
+}
+
+// Метод блочной релаксации
+void blockRelaxation(const Matrix& A, const Vector& F, Vector& X, int n, int blockSize, double omega, double tolerance, int maxIterations) {
+   int numBlocks = n / blockSize;
+   Vector R(n);
+
+   for (int iter = 0; iter < maxIterations; ++iter) {
+      for (int k = 0; k < numBlocks; ++k) {
+         int start = k * blockSize;
+         int end = start + blockSize;
+
+         // Вычисляем R_k^(l)
+         for (int i = start; i < end; ++i) {
+            R[i] = F[i];
+            for (int j = 0; j < n; ++j) {
+               if (j < start || j >= end) {
+                  R[i] -= A[i][j] * X[j];
+               }
+            }
+         }
+
+         // Решаем A_kk * Y_k^(l+1) = R_k^(l)
+         Vector Y(blockSize);
+         solveBlock(Matrix(A.begin() + start, A.begin() + end), Y, R, blockSize);
+
+         // Обновляем X^(l+1)_k
+         for (int i = start; i < end; ++i) {
+            X[i] += omega * (Y[i - start] - X[i]);
+         }
+      }
+
+      // Вычисляем невязку и проверяем на сходимость
+      double residual = 0.0;
+      double denominator = 0.0;
+      for (int i = 0; i < n; ++i) {
+         double Ax_i = 0.0;
+         for (int j = 0; j < n; ++j) {
+            Ax_i += A[i][j] * X[j];
+         }
+         residual += (F[i] - Ax_i) * (F[i] - Ax_i);
+         denominator += F[i] * F[i];
+      }
+      residual = sqrt(residual) / sqrt(denominator);
+
+      cout << "Итерация " << iter << ", Невязка: " << residual << endl;
+
+      if (residual < tolerance) {
+         cout << "Метод сошелся на итерации " << iter << endl;
+         break;
+      }
+   }
+}
+
+int main() {
+   setlocale(LC_ALL, "Russian");
+   int n = 6; // размер матрицы
+   int blockSize = 2;
+   double omega = 1.5;
+   double tolerance = 1e-6;
+   int maxIterations = 100;
+
+   /*Matrix A = {
+       {9, -2, -1, -2, -1, -2},
+       {-2, 6, -1, -1, -1, -1},
+       {-1, -1, 5, -1, -1, -1},
+       {-2, -1, -1, 6, -1, -1},
+       {-1, -1, -1, -1, 5, -1},
+       {-2, -1, -1, -1, -1, 6}
+   };*/
+
+   Matrix A = {
+    {3, -5, 2, -1, 4, -3},
+    {-2, 7, -4, 1, -5, -2},
+    {6, -3, 8, -1, 2, -4},
+    {-1, 9, -2, 5, -3, -6},
+    {4, -7, -1, 3, 6, -2},
+    {-5, -2, 1, -4, 7, 9}
+   };
+
+
+   /*Matrix A = {
+       {4, -1, 0, -1, 0, 0},
+       {-1, 4, -1, 0, -1, 0},
+       {0, -1, 4, -1, 0, -1},
+       {-1, 0, -1, 4, -1, 0},
+       {0, -1, 0, -1, 4, -1},
+       {0, 0, -1, 0, -1, 4}
+   };*/
+
+   Vector F = { 15, 10, 10, 10, 10, 15 };
+   Vector X(n, 0.0); // начальное приближение
+
+   blockRelaxation(A, F, X, n, blockSize, omega, tolerance, maxIterations);
+
+   cout << "Решение X:" << endl;
+   for (double xi : X) {
+      cout << xi << " ";
+   }
+   cout << endl;
+
+   return 0;
+}
+
+
+
+
+8	−3	0	0	0	−1	0	0
+−2	11	−4	0	0	−3	0	0
+0	−1	6	0	0	0	−4	0
+0	0	−4	9	−2	0	0	−3
+−1	0	0	−2	8	−3	0	0
+0	−3	0	0	−2	10	−4	0
+0	0	−1	0	0	−2	6	−3
+−4	0	0	−3	0	0	−1	10
+0	−3	0	0	−2	0	0	−4
+0	0	−3	0	0	−1	0	0

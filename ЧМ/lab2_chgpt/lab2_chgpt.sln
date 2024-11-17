@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab2_chgpt", "lab2_chgpt.vcxproj", "{408FB236-23AC-4E43-8776-82584E28A166}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{408FB236-23AC-4E43-8776-82584E28A166}.Debug|x64.ActiveCfg = Debug|x64
+		{408FB236-23AC-4E43-8776-82584E28A166}.Debug|x64.Build.0 = Debug|x64
+		{408FB236-23AC-4E43-8776-82584E28A166}.Debug|x86.ActiveCfg = Debug|Win32
+		{408FB236-23AC-4E43-8776-82584E28A166}.Debug|x86.Build.0 = Debug|Win32
+		{408FB236-23AC-4E43-8776-82584E28A166}.Release|x64.ActiveCfg = Release|x64
+		{408FB236-23AC-4E43-8776-82584E28A166}.Release|x64.Build.0 = Release|x64
+		{408FB236-23AC-4E43-8776-82584E28A166}.Release|x86.ActiveCfg = Release|Win32
+		{408FB236-23AC-4E43-8776-82584E28A166}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6C26ACD-C76D-446C-8B89-C5DC150A9637}
+	EndGlobalSection
+EndGlobal

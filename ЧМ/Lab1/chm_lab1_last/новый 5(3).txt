@@ -1,0 +1,31 @@
+for (int ij = 0; ij < n; ij++)
+{
+   int ilu = ij + 1;
+
+   for (int i = ij + 1; i < n; i++)
+   {
+      double sum = 0.0;
+      for (int k = 0; k < ij; k++)
+         sum += al[i][k + m - i] * au[ij][k + m - ij];
+      }
+      al[i][ij + m - i] = (al[i][ij + m - i] - sum) / di[ij]; // au[ijl][ijl];
+   }
+   ij = ilu - 1;
+   for (int j = ij + 1; j < n; j++)
+   {
+      double sum = 0.0;
+      
+      for (int k = 0; k < ij + 1; k++)
+      {
+         if (k + m - (ij + 1) < 0 || j < 0) continue;
+         sum += al[ij + 1][k + m - (ij + 1)] * au[j][k + m - j];
+      }
+
+      if (ij == j + 1) {
+         di[ij + 1] = (di[ij + 1] - sum);
+      }
+      else {
+         au[j][ij + m - j + 1] = (au[j][ij + m - j + 1] - sum);
+      }
+   }
+}
