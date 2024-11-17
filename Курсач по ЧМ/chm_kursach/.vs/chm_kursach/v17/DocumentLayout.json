@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447 \u043F\u043E \u0427\u041C\\chm_kursach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3F1D77-C097-4359-881F-22425CD9763D}|chm_kursach.vcxproj|C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447 \u043F\u043E \u0427\u041C\\chm_kursach\\chm_kursach.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD3F1D77-C097-4359-881F-22425CD9763D}|chm_kursach.vcxproj|solutionrelative:chm_kursach.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chm_kursach.cpp",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447 \u043F\u043E \u0427\u041C\\chm_kursach\\chm_kursach.cpp",
+              "RelativeDocumentMoniker": "chm_kursach.cpp",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041A\u0443\u0440\u0441\u0430\u0447 \u043F\u043E \u0427\u041C\\chm_kursach\\chm_kursach.cpp",
+              "RelativeToolTip": "chm_kursach.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T10:26:51.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
