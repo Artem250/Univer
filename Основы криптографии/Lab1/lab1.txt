@@ -1,0 +1,4 @@
+OpenSSL> req -in client.csr -text
+problem creating object tsa_policy1=1.2.3.4.1
+40612:error:08064066:object identifier routines:OBJ_create:oid exists:../openssl-1.1.1s/crypto/objects/obj_dat.c:699:
+error in req

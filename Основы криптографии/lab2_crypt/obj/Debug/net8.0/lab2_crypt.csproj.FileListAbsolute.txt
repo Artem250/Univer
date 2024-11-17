@@ -1,0 +1,14 @@
+C:\Универ\Основы криптографии\lab2_crypt\bin\Debug\net8.0\lab2_crypt.exe
+C:\Универ\Основы криптографии\lab2_crypt\bin\Debug\net8.0\lab2_crypt.deps.json
+C:\Универ\Основы криптографии\lab2_crypt\bin\Debug\net8.0\lab2_crypt.runtimeconfig.json
+C:\Универ\Основы криптографии\lab2_crypt\bin\Debug\net8.0\lab2_crypt.dll
+C:\Универ\Основы криптографии\lab2_crypt\bin\Debug\net8.0\lab2_crypt.pdb
+C:\Универ\Основы криптографии\lab2_crypt\obj\Debug\net8.0\lab2_crypt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\Основы криптографии\lab2_crypt\obj\Debug\net8.0\lab2_crypt.AssemblyInfoInputs.cache
+C:\Универ\Основы криптографии\lab2_crypt\obj\Debug\net8.0\lab2_crypt.AssemblyInfo.cs
+C:\Универ\Основы криптографии\lab2_crypt\obj\Debug\net8.0\lab2_crypt.csproj.CoreCompileInputs.cache
+C:\Универ\Основы криптографии\lab2_crypt\obj\Debug\net8.0\lab2_crypt.dll
+C:\Универ\Основы криптографии\lab2_crypt\obj\Debug\net8.0\refint\lab2_crypt.dll
+C:\Универ\Основы криптографии\lab2_crypt\obj\Debug\net8.0\lab2_crypt.pdb
+C:\Универ\Основы криптографии\lab2_crypt\obj\Debug\net8.0\lab2_crypt.genruntimeconfig.cache
+C:\Универ\Основы криптографии\lab2_crypt\obj\Debug\net8.0\ref\lab2_crypt.dll

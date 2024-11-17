@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u0441\u043D\u043E\u0432\u044B \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438\\lab3_crypt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{869D9743-5ACB-4A14-9274-CFB943A32B53}|lab3_crypt.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u0441\u043D\u043E\u0432\u044B \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438\\lab3_crypt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869D9743-5ACB-4A14-9274-CFB943A32B53}|lab3_crypt.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869D9743-5ACB-4A14-9274-CFB943A32B53}|lab3_crypt.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u0441\u043D\u043E\u0432\u044B \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438\\lab3_crypt\\ani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869D9743-5ACB-4A14-9274-CFB943A32B53}|lab3_crypt.csproj|solutionrelative:ani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ani.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u0441\u043D\u043E\u0432\u044B \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438\\lab3_crypt\\ani.cs",
+              "RelativeDocumentMoniker": "ani.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u0441\u043D\u043E\u0432\u044B \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438\\lab3_crypt\\ani.cs",
+              "RelativeToolTip": "ani.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwCgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T07:13:20.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u0441\u043D\u043E\u0432\u044B \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438\\lab3_crypt\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u0441\u043D\u043E\u0432\u044B \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438\\lab3_crypt\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:15:36.795Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
