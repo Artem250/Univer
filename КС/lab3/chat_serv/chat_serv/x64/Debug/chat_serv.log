@@ -1,0 +1,6 @@
+﻿  chat_serv.cpp
+C:\Универ\КС\lab3\chat_serv\chat_serv\chat_serv.cpp(36,46): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Универ\КС\lab3\chat_serv\chat_serv\chat_serv.cpp(58,58): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Универ\КС\lab3\chat_serv\chat_serv\chat_serv.cpp(69,50): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Универ\КС\lab3\chat_serv\chat_serv\chat_serv.cpp(86,1): warning C4715: ServerThread: значение возвращается не при всех путях выполнения
+  chat_serv.vcxproj -> C:\Универ\КС\lab3\chat_serv\x64\Debug\chat_serv.exe

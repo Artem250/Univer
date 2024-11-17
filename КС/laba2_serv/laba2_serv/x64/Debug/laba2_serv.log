@@ -1,0 +1,3 @@
+﻿  laba2_serv.cpp
+C:\Универ\Компьютерные сети (ОСи)\laba2_serv\laba2_serv.cpp(96,63): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  laba2_serv.vcxproj -> C:\Универ\Компьютерные сети (ОСи)\laba2_serv\x64\Debug\laba2_serv.exe
