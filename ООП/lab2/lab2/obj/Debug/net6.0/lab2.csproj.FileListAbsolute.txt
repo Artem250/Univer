@@ -1,0 +1,58 @@
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\bin\Debug\net6.0\lab2.exe
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\bin\Debug\net6.0\lab2.deps.json
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\bin\Debug\net6.0\lab2.runtimeconfig.json
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\bin\Debug\net6.0\lab2.dll
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\bin\Debug\net6.0\lab2.pdb
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\obj\Debug\net6.0\lab2.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\obj\Debug\net6.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfo.cs
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\obj\Debug\net6.0\lab2.dll
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\obj\Debug\net6.0\refint\lab2.dll
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\obj\Debug\net6.0\lab2.pdb
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\obj\Debug\net6.0\lab2.genruntimeconfig.cache
+C:\Users\user\Desktop\1\University_bullshit\5\C#\Lab2\prog\lab2\lab2\obj\Debug\net6.0\ref\lab2.dll
+C:\Users\user\Desktop\lab2\lab2\bin\Debug\net6.0\lab2.exe
+C:\Users\user\Desktop\lab2\lab2\bin\Debug\net6.0\lab2.deps.json
+C:\Users\user\Desktop\lab2\lab2\bin\Debug\net6.0\lab2.runtimeconfig.json
+C:\Users\user\Desktop\lab2\lab2\bin\Debug\net6.0\lab2.dll
+C:\Users\user\Desktop\lab2\lab2\bin\Debug\net6.0\lab2.pdb
+C:\Users\user\Desktop\lab2\lab2\obj\Debug\net6.0\lab2.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\lab2\lab2\obj\Debug\net6.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfo.cs
+C:\Users\user\Desktop\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\lab2\lab2\obj\Debug\net6.0\lab2.dll
+C:\Users\user\Desktop\lab2\lab2\obj\Debug\net6.0\refint\lab2.dll
+C:\Users\user\Desktop\lab2\lab2\obj\Debug\net6.0\lab2.pdb
+C:\Users\user\Desktop\lab2\lab2\obj\Debug\net6.0\lab2.genruntimeconfig.cache
+C:\Users\user\Desktop\lab2\lab2\obj\Debug\net6.0\ref\lab2.dll
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\bin\Debug\net6.0\lab2.exe
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\bin\Debug\net6.0\lab2.deps.json
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\bin\Debug\net6.0\lab2.runtimeconfig.json
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\bin\Debug\net6.0\lab2.dll
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\bin\Debug\net6.0\lab2.pdb
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\obj\Debug\net6.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfoInputs.cache
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfo.cs
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CoreCompileInputs.cache
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\obj\Debug\net6.0\lab2.dll
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\obj\Debug\net6.0\refint\lab2.dll
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\obj\Debug\net6.0\lab2.pdb
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\obj\Debug\net6.0\lab2.genruntimeconfig.cache
+C:\Универ\'Шарпы и плюсы'\lab2\lab2\obj\Debug\net6.0\ref\lab2.dll
+C:\Универ\ООП\lab2\lab2\bin\Debug\net6.0\lab2.exe
+C:\Универ\ООП\lab2\lab2\bin\Debug\net6.0\lab2.deps.json
+C:\Универ\ООП\lab2\lab2\bin\Debug\net6.0\lab2.runtimeconfig.json
+C:\Универ\ООП\lab2\lab2\bin\Debug\net6.0\lab2.dll
+C:\Универ\ООП\lab2\lab2\bin\Debug\net6.0\lab2.pdb
+C:\Универ\ООП\lab2\lab2\obj\Debug\net6.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\ООП\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfoInputs.cache
+C:\Универ\ООП\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfo.cs
+C:\Универ\ООП\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CoreCompileInputs.cache
+C:\Универ\ООП\lab2\lab2\obj\Debug\net6.0\lab2.dll
+C:\Универ\ООП\lab2\lab2\obj\Debug\net6.0\refint\lab2.dll
+C:\Универ\ООП\lab2\lab2\obj\Debug\net6.0\lab2.pdb
+C:\Универ\ООП\lab2\lab2\obj\Debug\net6.0\lab2.genruntimeconfig.cache
+C:\Универ\ООП\lab2\lab2\obj\Debug\net6.0\ref\lab2.dll

@@ -1,0 +1,14 @@
+C:\Универ\ООП\lab3_oop_antona\bin\Debug\net8.0\lab3_oop_antona.exe
+C:\Универ\ООП\lab3_oop_antona\bin\Debug\net8.0\lab3_oop_antona.deps.json
+C:\Универ\ООП\lab3_oop_antona\bin\Debug\net8.0\lab3_oop_antona.runtimeconfig.json
+C:\Универ\ООП\lab3_oop_antona\bin\Debug\net8.0\lab3_oop_antona.dll
+C:\Универ\ООП\lab3_oop_antona\bin\Debug\net8.0\lab3_oop_antona.pdb
+C:\Универ\ООП\lab3_oop_antona\obj\Debug\net8.0\lab3_oop_antona.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\ООП\lab3_oop_antona\obj\Debug\net8.0\lab3_oop_antona.AssemblyInfoInputs.cache
+C:\Универ\ООП\lab3_oop_antona\obj\Debug\net8.0\lab3_oop_antona.AssemblyInfo.cs
+C:\Универ\ООП\lab3_oop_antona\obj\Debug\net8.0\lab3_oop_antona.csproj.CoreCompileInputs.cache
+C:\Универ\ООП\lab3_oop_antona\obj\Debug\net8.0\lab3_oop_antona.dll
+C:\Универ\ООП\lab3_oop_antona\obj\Debug\net8.0\refint\lab3_oop_antona.dll
+C:\Универ\ООП\lab3_oop_antona\obj\Debug\net8.0\lab3_oop_antona.pdb
+C:\Универ\ООП\lab3_oop_antona\obj\Debug\net8.0\lab3_oop_antona.genruntimeconfig.cache
+C:\Универ\ООП\lab3_oop_antona\obj\Debug\net8.0\ref\lab3_oop_antona.dll

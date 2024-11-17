@@ -1,0 +1,14 @@
+C:\Универ\ООП\lab3_test\bin\Debug\net8.0\lab3_test.exe
+C:\Универ\ООП\lab3_test\bin\Debug\net8.0\lab3_test.deps.json
+C:\Универ\ООП\lab3_test\bin\Debug\net8.0\lab3_test.runtimeconfig.json
+C:\Универ\ООП\lab3_test\bin\Debug\net8.0\lab3_test.dll
+C:\Универ\ООП\lab3_test\bin\Debug\net8.0\lab3_test.pdb
+C:\Универ\ООП\lab3_test\obj\Debug\net8.0\lab3_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\ООП\lab3_test\obj\Debug\net8.0\lab3_test.AssemblyInfoInputs.cache
+C:\Универ\ООП\lab3_test\obj\Debug\net8.0\lab3_test.AssemblyInfo.cs
+C:\Универ\ООП\lab3_test\obj\Debug\net8.0\lab3_test.csproj.CoreCompileInputs.cache
+C:\Универ\ООП\lab3_test\obj\Debug\net8.0\lab3_test.dll
+C:\Универ\ООП\lab3_test\obj\Debug\net8.0\refint\lab3_test.dll
+C:\Универ\ООП\lab3_test\obj\Debug\net8.0\lab3_test.pdb
+C:\Универ\ООП\lab3_test\obj\Debug\net8.0\lab3_test.genruntimeconfig.cache
+C:\Универ\ООП\lab3_test\obj\Debug\net8.0\ref\lab3_test.dll

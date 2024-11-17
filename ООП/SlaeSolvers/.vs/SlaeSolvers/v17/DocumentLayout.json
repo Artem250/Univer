@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC46AEDF-9D16-41DD-ADFA-E30B90332E80}|TestProject\\TestProject.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\slaesolvers\\testproject\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC46AEDF-9D16-41DD-ADFA-E30B90332E80}|TestProject\\TestProject.csproj|solutionrelative:testproject\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\slaesolvers\\slaesolvers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|solutionrelative:slaesolvers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\slaesolvers\\slaesolvers\\basematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|solutionrelative:slaesolvers\\basematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\slaesolvers\\slaesolvers\\consoleprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|solutionrelative:slaesolvers\\consoleprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\slaesolvers\\slaesolvers\\densematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|solutionrelative:slaesolvers\\densematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\slaesolvers\\slaesolvers\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|solutionrelative:slaesolvers\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\slaesolvers\\slaesolvers\\yakobisolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C17FA6-F3E6-49FE-99FD-C9E4E837BAF3}|SlaeSolvers\\SlaeSolvers.csproj|solutionrelative:slaesolvers\\yakobisolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC46AEDF-9D16-41DD-ADFA-E30B90332E80}|TestProject\\TestProject.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\slaesolvers\\testproject\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC46AEDF-9D16-41DD-ADFA-E30B90332E80}|TestProject\\TestProject.csproj|solutionrelative:testproject\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\TestProject\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "TestProject\\MSTestSettings.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\TestProject\\MSTestSettings.cs",
+              "RelativeToolTip": "TestProject\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:00:56.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "YakobiSolver.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\YakobiSolver.cs",
+              "RelativeDocumentMoniker": "SlaeSolvers\\YakobiSolver.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\YakobiSolver.cs",
+              "RelativeToolTip": "SlaeSolvers\\YakobiSolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:00:54.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "interfaces.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\interfaces.cs",
+              "RelativeDocumentMoniker": "SlaeSolvers\\interfaces.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\interfaces.cs",
+              "RelativeToolTip": "SlaeSolvers\\interfaces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:00:53.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DenseMatrix.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\DenseMatrix.cs",
+              "RelativeDocumentMoniker": "SlaeSolvers\\DenseMatrix.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\DenseMatrix.cs",
+              "RelativeToolTip": "SlaeSolvers\\DenseMatrix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:00:51.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsolePrinter.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\ConsolePrinter.cs",
+              "RelativeDocumentMoniker": "SlaeSolvers\\ConsolePrinter.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\ConsolePrinter.cs",
+              "RelativeToolTip": "SlaeSolvers\\ConsolePrinter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:00:50.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseMatrix.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\BaseMatrix.cs",
+              "RelativeDocumentMoniker": "SlaeSolvers\\BaseMatrix.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\BaseMatrix.cs",
+              "RelativeToolTip": "SlaeSolvers\\BaseMatrix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:00:49.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\Program.cs",
+              "RelativeDocumentMoniker": "SlaeSolvers\\Program.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\SlaeSolvers\\Program.cs",
+              "RelativeToolTip": "SlaeSolvers\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:00:35.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\TestProject\\Test1.cs",
+              "RelativeDocumentMoniker": "TestProject\\Test1.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\SlaeSolvers\\TestProject\\Test1.cs",
+              "RelativeToolTip": "TestProject\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:00:30.904Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

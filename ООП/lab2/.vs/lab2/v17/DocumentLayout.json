@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0E26F8-22DE-445E-BA97-55A014AFB898}|lab2\\lab2.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0E26F8-22DE-445E-BA97-55A014AFB898}|lab2\\lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0E26F8-22DE-445E-BA97-55A014AFB898}|lab2\\lab2.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\lab2\\lab2\\lab2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7C0E26F8-22DE-445E-BA97-55A014AFB898}|lab2\\lab2.csproj|solutionrelative:lab2\\lab2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lab2",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab2\\lab2\\lab2.csproj",
+              "RelativeDocumentMoniker": "lab2\\lab2.csproj",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab2\\lab2\\lab2.csproj",
+              "RelativeToolTip": "lab2\\lab2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-01T05:54:51.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab2\\lab2\\Program.cs",
+              "RelativeDocumentMoniker": "lab2\\Program.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab2\\lab2\\Program.cs",
+              "RelativeToolTip": "lab2\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGIAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T05:23:03.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

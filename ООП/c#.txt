@@ -1,0 +1,22 @@
+Абстракиця - отделение концепции от её экземпляра 
+Полиморфизм - реалихация задач одной и той же идеи разными способами
+Наследоавание - способность объекта или класса базироваться на другом объекте или классе 
+Инкапсудяция - размещение одного объекта или класса внутри другого для разграничения доступа
+
+TestProgram:
+Add -> Project references
+
+DenseMatrix matrix = new DenseMatrix() {Matr = new double[2, 2]};
+Matr.Matr[0, 0] = 2;
+Matr.Matr[0, 1] = 0;
+Matr.Matr[1, 0] = 0;
+Matr.Matr[1, 1] = 2;
+
+
+double[] res = new double[2];
+Matr.Mult([1, 2], res);
+Assert.AreEqueal(2, res.Length);
+Assert.AreEqueal(2, res[0], 1e-10);
+Assert.AreEqueal(4, res[1], 1e-10);
+
+Code Coverage

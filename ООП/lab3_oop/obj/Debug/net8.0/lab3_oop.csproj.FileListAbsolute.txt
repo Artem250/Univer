@@ -1,0 +1,14 @@
+C:\Универ\ООП\lab3_oop\bin\Debug\net8.0\lab3_oop.exe
+C:\Универ\ООП\lab3_oop\bin\Debug\net8.0\lab3_oop.deps.json
+C:\Универ\ООП\lab3_oop\bin\Debug\net8.0\lab3_oop.runtimeconfig.json
+C:\Универ\ООП\lab3_oop\bin\Debug\net8.0\lab3_oop.dll
+C:\Универ\ООП\lab3_oop\bin\Debug\net8.0\lab3_oop.pdb
+C:\Универ\ООП\lab3_oop\obj\Debug\net8.0\lab3_oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Универ\ООП\lab3_oop\obj\Debug\net8.0\lab3_oop.AssemblyInfoInputs.cache
+C:\Универ\ООП\lab3_oop\obj\Debug\net8.0\lab3_oop.AssemblyInfo.cs
+C:\Универ\ООП\lab3_oop\obj\Debug\net8.0\lab3_oop.csproj.CoreCompileInputs.cache
+C:\Универ\ООП\lab3_oop\obj\Debug\net8.0\lab3_oop.dll
+C:\Универ\ООП\lab3_oop\obj\Debug\net8.0\refint\lab3_oop.dll
+C:\Универ\ООП\lab3_oop\obj\Debug\net8.0\lab3_oop.pdb
+C:\Универ\ООП\lab3_oop\obj\Debug\net8.0\lab3_oop.genruntimeconfig.cache
+C:\Универ\ООП\lab3_oop\obj\Debug\net8.0\ref\lab3_oop.dll

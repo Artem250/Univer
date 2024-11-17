@@ -1,0 +1,14 @@
+public IEn... Persons => Students.Cast<IPerson>.Concat(Teachers)
+
+
+или
+
+
+public Ien... Persons => persons;
+public Ien... Persons => Persons.OfType<Students>;
+
+SortedSet<IPerson> persons; //метод сортировки при объявлении             не подходит :/
+
+в конструкторе параметр Comparer
+
+

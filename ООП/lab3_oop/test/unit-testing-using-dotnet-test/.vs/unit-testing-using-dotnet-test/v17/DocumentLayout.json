@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab3_oop\\test\\unit-testing-using-dotnet-test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDFD15E5-DFCC-477A-9D19-832EE9BE6AC4}|PrimeService.Tests\\PrimeService.Tests.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\lab3_oop\\test\\unit-testing-using-dotnet-test\\primeservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDFD15E5-DFCC-477A-9D19-832EE9BE6AC4}|PrimeService.Tests\\PrimeService.Tests.csproj|solutionrelative:primeservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D124104-C0C9-4C09-B93C-2EA1A45C6091}|PrimeService\\PrimeService.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\lab3_oop\\test\\unit-testing-using-dotnet-test\\primeservice\\primeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D124104-C0C9-4C09-B93C-2EA1A45C6091}|PrimeService\\PrimeService.csproj|solutionrelative:primeservice\\primeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab3_oop\\test\\unit-testing-using-dotnet-test\\PrimeService.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "PrimeService.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab3_oop\\test\\unit-testing-using-dotnet-test\\PrimeService.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "PrimeService.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:51:38.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrimeService.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab3_oop\\test\\unit-testing-using-dotnet-test\\PrimeService\\PrimeService.cs",
+              "RelativeDocumentMoniker": "PrimeService\\PrimeService.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab3_oop\\test\\unit-testing-using-dotnet-test\\PrimeService\\PrimeService.cs",
+              "RelativeToolTip": "PrimeService\\PrimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:49:02.347Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

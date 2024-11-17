@@ -1,0 +1,14 @@
+C:\Users\Artem\source\repos\test c#\bin\Debug\net8.0\lab2.exe
+C:\Users\Artem\source\repos\test c#\bin\Debug\net8.0\lab2.deps.json
+C:\Users\Artem\source\repos\test c#\bin\Debug\net8.0\lab2.runtimeconfig.json
+C:\Users\Artem\source\repos\test c#\bin\Debug\net8.0\lab2.dll
+C:\Users\Artem\source\repos\test c#\bin\Debug\net8.0\lab2.pdb
+C:\Users\Artem\source\repos\test c#\obj\Debug\net8.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\source\repos\test c#\obj\Debug\net8.0\lab2.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\test c#\obj\Debug\net8.0\lab2.AssemblyInfo.cs
+C:\Users\Artem\source\repos\test c#\obj\Debug\net8.0\lab2.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\test c#\obj\Debug\net8.0\lab2.dll
+C:\Users\Artem\source\repos\test c#\obj\Debug\net8.0\refint\lab2.dll
+C:\Users\Artem\source\repos\test c#\obj\Debug\net8.0\lab2.pdb
+C:\Users\Artem\source\repos\test c#\obj\Debug\net8.0\lab2.genruntimeconfig.cache
+C:\Users\Artem\source\repos\test c#\obj\Debug\net8.0\ref\lab2.dll
