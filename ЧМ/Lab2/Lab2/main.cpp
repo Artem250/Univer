@@ -36,9 +36,6 @@ int main()
    //cout << slae.calcRelativeResidual();
 
    output.close();
-
-
-
    //slae.convM();
 
 
