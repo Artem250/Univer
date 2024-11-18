@@ -89,51 +89,6 @@ Sender's IP address: 195.62.2.11
 Recipient's IP address: 81.181.78.206
 Size: 66 bytes
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Frame 11
 Recipient's MAC address: 00:02:16:09:FA:40
 Sender's MAC address: 00:90:27:A1:36:D0
@@ -142,28 +97,6 @@ Protocol: IPv4
 Sender's IP address: 195.62.2.11
 Recipient's IP address: 81.181.78.206
 Size: 530 bytes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Frame 12
 Recipient's MAC address: 00:90:27:A1:36:D0
