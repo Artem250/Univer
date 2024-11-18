@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab3_na_otpr\\",
+  "WorkspaceRootPath": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\Univer\\\u041E\u041E\u041F\\lab3_na_otpr\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7832EED0-9A03-4BA9-B5CD-A246ED8D4E75}|lab3_na_otpr.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\\u043E\u043E\u043F\\lab3_na_otpr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7832EED0-9A03-4BA9-B5CD-A246ED8D4E75}|lab3_na_otpr.csproj|c:\\\u0443\u043D\u0438\u0432\u0435\u0440\\univer\\\u043E\u043E\u043F\\lab3_na_otpr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7832EED0-9A03-4BA9-B5CD-A246ED8D4E75}|lab3_na_otpr.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,14 +24,32 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab3_na_otpr\\Program.cs",
+              "DocumentMoniker": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\Univer\\\u041E\u041E\u041F\\lab3_na_otpr\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\\u041E\u041E\u041F\\lab3_na_otpr\\Program.cs",
+              "ToolTip": "C:\\\u0423\u043D\u0438\u0432\u0435\u0440\\Univer\\\u041E\u041E\u041F\\lab3_na_otpr\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAUwAwBAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T08:37:51.328Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 545,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{271d5c74-3ac9-4328-910a-713e65f6ec25}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

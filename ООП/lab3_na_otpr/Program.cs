@@ -17,7 +17,7 @@ var z = new Variable("z");
 var w = new Variable("w");
 var c = new Constant(3);
 //var expr1 = (x - 4.0) * (3 * x + y * y) / 5.0;
-var expr1 = -x;
+var expr1 = Log(x, x);
 //var expr1 = 5;
 //var expr1 = Pow(x, 2) + Log(x, 8);
 //var expr1 = Pow(x, 3.2);
@@ -26,6 +26,8 @@ var expr2 = expr1.Derivate(x);
 
 Console.WriteLine(expr2.Compute(new Dictionary<string, double>
 { ["x"] = 2, ["y"] = 1 }));
+Console.WriteLine("IsConstant: " + expr2.IsConstant);
+
 //var expr1 = (5 - 3 * c) * Sqrt(16 + c * c);
 
 
@@ -36,8 +38,8 @@ Console.WriteLine(expr2.Compute(new Dictionary<string, double>
 //Console.WriteLine(Math.Pow(2, 2));
 Console.WriteLine(expr1.ToString());
 Console.WriteLine($"[{string.Join(", ", expr1.Variables.Select(v => $"\"{v}\""))}]"); // Вывод: ["x", "y"]
-Console.WriteLine(expr1.IsConstant);
-Console.WriteLine(expr1.IsPolynomial);
+Console.WriteLine("IsConstant: " + expr1.IsConstant);
+Console.WriteLine("IsPolynomial: " + expr1.IsPolynomial);
 Console.WriteLine("PolynomialDegree: " + expr1.PolynomialDegree);
 Console.WriteLine(expr1.Compute(new Dictionary<string, double>
 { ["x"] = 1, ["y"] = 2 }));
@@ -216,7 +218,7 @@ public class Div : BinaryOperation
     {
         //if (Right is Constant rightConst && (rightConst.Value is int val && val == 0 || rightConst.Value is double dVal && dVal == 0.0))
         if (Right is Constant rightConst && Convert.ToDouble(rightConst.Value) == 0.0)
-            throw new Exception("Division by 0");
+            throw new ArgumentException("Division by 0");
 
         return Left.Compute(variableValues) / Right.Compute(variableValues);
     }
@@ -261,9 +263,12 @@ public class LogFun : Function
     public override int PolynomialDegree => IsConstant ? 0 : -1;
     public override double Compute(IReadOnlyDictionary<string, double> variableValues)
     {
+        double leftVal = Left.Compute(variableValues);
+        double rightVal = Right.Compute(variableValues);
+        if (leftVal <= 0 || leftVal == 1 || rightVal <= 0) throw new Exception("The logarithm makes sense when a > 0, a != 1, b > 0");
         return Math.Log(Right.Compute(variableValues), Left.Compute(variableValues));
     }
-    public override string ToString() => $"Log{Left}({Right})";
+    public override string ToString() => $"Log({Left}; {Right})";
 
 
     public override Expr Derivate(Variable x) => (Left * new LogFun(Math.E, Left) * Right.Derivate(x) -
@@ -279,7 +284,9 @@ public class SqrtFun : UnaryOperation
     public override int PolynomialDegree => IsConstant ? 0 : -1;
     public override double Compute(IReadOnlyDictionary<string, double> variableValues)
     {
-        return Math.Sqrt(Operand.Compute(variableValues));
+        double val = Operand.Compute(variableValues);
+        if (val < 0) throw new Exception("The square root of a negative number cannot be calculated");
+        return Math.Sqrt(val);
     }
     public override string ToString() => $"Sqrt({Operand})";
     public override Expr Derivate(Variable x) => (0.5) * Operand.Derivate(x) / new SqrtFun(Operand);

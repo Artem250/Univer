@@ -1,14 +1,14 @@
-File name: ethers11.bin
-Frame 1
+File name: ethers07.bin
+Frame 1 byte: 0
 Recipient's MAC address: 00:02:16:09:FA:40
 Sender's MAC address: 00:90:27:A1:36:D0
 Type of frame: Ethernet DIX (Ethernet II)
 Protocol: IPv4
 Sender's IP address: 195.62.2.11
-Recipient's IP address: 81.181.78.206
-Size: 87 bytes
+Recipient's IP address: 62.167.64.216
+Size: 153 bytes
 
-Frame 2
+Frame 2 byte: 153
 Recipient's MAC address: 00:90:27:A1:36:D0
 Sender's MAC address: 00:02:16:09:FA:40
 Type of frame: Ethernet DIX (Ethernet II)
@@ -17,7 +17,7 @@ Sender's IP address: 81.181.78.206
 Recipient's IP address: 195.62.2.11
 Size: 66 bytes
 
-Frame 3
+Frame 3 byte: 219
 Recipient's MAC address: 00:90:27:A1:36:D0
 Sender's MAC address: 00:02:16:09:FA:40
 Type of frame: Ethernet DIX (Ethernet II)
@@ -26,7 +26,7 @@ Sender's IP address: 81.181.78.206
 Recipient's IP address: 195.62.2.11
 Size: 86 bytes
 
-Frame 4
+Frame 4 byte: 305
 Recipient's MAC address: 00:02:16:09:FA:40
 Sender's MAC address: 00:90:27:A1:36:D0
 Type of frame: Ethernet DIX (Ethernet II)
@@ -35,7 +35,7 @@ Sender's IP address: 195.62.2.11
 Recipient's IP address: 81.181.78.206
 Size: 66 bytes
 
-Frame 5
+Frame 5 byte: 371
 Recipient's MAC address: 00:02:16:09:FA:40
 Sender's MAC address: 00:90:27:A1:36:D0
 Type of frame: Ethernet DIX (Ethernet II)
@@ -44,7 +44,16 @@ Sender's IP address: 195.62.2.11
 Recipient's IP address: 81.181.78.206
 Size: 810 bytes
 
-Frame 6
+Frame 6 byte: 1181
+Recipient's MAC address: 00:08:02:8F:DA:6E
+Sender's MAC address: 00:02:16:09:FA:40
+Type of frame: Ethernet DIX (Ethernet II)
+Protocol: IPv4
+Sender's IP address: 205.188.9.82
+Recipient's IP address: 195.62.2.42
+Size: 252 bytes
+
+Frame 7 byte: 1433
 Recipient's MAC address: 00:90:27:A1:36:D0
 Sender's MAC address: 00:02:16:09:FA:40
 Type of frame: Ethernet DIX (Ethernet II)
@@ -53,7 +62,7 @@ Sender's IP address: 81.181.78.206
 Recipient's IP address: 195.62.2.11
 Size: 218 bytes
 
-Frame 7
+Frame 8 byte: 1651
 Recipient's MAC address: 00:02:16:09:FA:40
 Sender's MAC address: 00:90:27:A1:36:D0
 Type of frame: Ethernet DIX (Ethernet II)
@@ -62,7 +71,89 @@ Sender's IP address: 195.62.2.11
 Recipient's IP address: 81.181.78.206
 Size: 66 bytes
 
-Frame 8
+Frame 9 byte: 1717
+Recipient's MAC address: FF:FF:FF:FF:FF:FF
+Sender's MAC address: 00:08:02:8F:DA:6E
+Type of frame: Ethernet DIX (Ethernet II)
+Type of frame: ARP
+Sender's MAC address: 00:08:02:8F:DA:6E
+Sender's IP address: 195.62.2.42
+Recipient's MAC address: 00:00:00:00:00:00
+Recipient's IP address: 195.62.2.1
+Size: 42 bytes
+
+Frame 10 byte: 1759
+Recipient's MAC address: 00:08:02:8F:DA:6E
+Sender's MAC address: 00:02:16:09:FA:40
+Type of frame: Ethernet DIX (Ethernet II)
+Type of frame: ARP
+Sender's MAC address: 00:02:16:09:FA:40
+Sender's IP address: 195.62.2.1
+Recipient's MAC address: 00:08:02:8F:DA:6E
+Recipient's IP address: 195.62.2.42
+Size: 42 bytes
+
+Frame 11 byte: 1801
+Recipient's MAC address: 00:02:16:09:FA:40
+Sender's MAC address: 00:08:02:8F:DA:6E
+Type of frame: Ethernet DIX (Ethernet II)
+Protocol: IPv4
+Sender's IP address: 195.62.2.42
+Recipient's IP address: 205.188.9.82
+Size: 54 bytes
+
+Frame 12 byte: 1855
+Recipient's MAC address: 00:90:27:A1:36:D0
+Sender's MAC address: 00:02:16:09:FA:40
+Type of frame: Ethernet DIX (Ethernet II)
+Protocol: IPv4
+Sender's IP address: 62.167.64.216
+Recipient's IP address: 195.62.2.11
+Size: 54 bytes
+
+Frame 13 byte: 1909
+Recipient's MAC address: FF:FF:FF:FF:FF:FF
+Sender's MAC address: 00:50:8B:95:40:A8
+Type of frame: Ethernet DIX (Ethernet II)
+Protocol: IPv4
+Sender's IP address: 195.62.2.14
+Recipient's IP address: 195.62.2.63
+Size: 92 bytes
+
+Frame 14 byte: 2001
+Recipient's MAC address: FF:FF:FF:FF:FF:FF
+Sender's MAC address: 00:50:8B:95:40:A8
+Type of frame: Ethernet DIX (Ethernet II)
+Protocol: IPv4
+Sender's IP address: 195.62.2.14
+Recipient's IP address: 195.62.2.63
+Size: 92 bytes
+
+Frame 15 byte: 2093
+Recipient's MAC address: 00:90:27:A1:36:D0
+Sender's MAC address: 00:02:16:09:FA:40
+Type of frame: Ethernet DIX (Ethernet II)
+Protocol: IPv4
+Sender's IP address: 168.95.1.14
+Recipient's IP address: 195.62.2.11
+Size: 216 bytes
+
+Frame 16 byte: 2309
+Recipient's MAC address: 00:02:16:09:FA:40
+Sender's MAC address: 00:90:27:A1:36:D0
+Type of frame: Ethernet DIX (Ethernet II)
+Protocol: IPv4
+Sender's IP address: 195.62.2.11
+Recipient's IP address: 168.95.192.14
+Size: 102 bytes
+
+Frame 17 byte: 2411
+Recipient's MAC address: 01:80:C2:00:00:00
+Sender's MAC address: 00:04:4D:8A:B0:D5
+Type of frame: Ethernet 802.2/LLC
+Size: 52 bytes
+
+Frame 18 byte: 2463
 Recipient's MAC address: 00:90:27:A1:36:D0
 Sender's MAC address: 00:02:16:09:FA:40
 Type of frame: Ethernet DIX (Ethernet II)
@@ -71,113 +162,23 @@ Sender's IP address: 81.181.78.206
 Recipient's IP address: 195.62.2.11
 Size: 210 bytes
 
-Frame 9
-Recipient's MAC address: 00:90:27:A1:36:D0
-Sender's MAC address: 00:02:16:09:FA:40
-Type of frame: Ethernet DIX (Ethernet II)
-Protocol: IPv4
-Sender's IP address: 195.62.2.1
-Recipient's IP address: 195.62.2.11
-Size: 1506 bytes
-
-Frame 10
+Frame 19 byte: 2673
 Recipient's MAC address: 00:02:16:09:FA:40
 Sender's MAC address: 00:90:27:A1:36:D0
 Type of frame: Ethernet DIX (Ethernet II)
 Protocol: IPv4
 Sender's IP address: 195.62.2.11
-Recipient's IP address: 81.181.78.206
-Size: 66 bytes
-
-Frame 11
-Recipient's MAC address: 00:02:16:09:FA:40
-Sender's MAC address: 00:90:27:A1:36:D0
-Type of frame: Ethernet DIX (Ethernet II)
-Protocol: IPv4
-Sender's IP address: 195.62.2.11
-Recipient's IP address: 81.181.78.206
-Size: 530 bytes
-
-Frame 12
-Recipient's MAC address: 00:90:27:A1:36:D0
-Sender's MAC address: 00:02:16:09:FA:40
-Type of frame: Ethernet DIX (Ethernet II)
-Protocol: IPv4
-Sender's IP address: 81.181.78.206
-Recipient's IP address: 195.62.2.11
-Size: 82 bytes
-
-Frame 13
-Recipient's MAC address: 00:08:02:BF:16:1B
-Sender's MAC address: 00:08:C7:8A:F2:A1
-Type of frame: Ethernet DIX (Ethernet II)
-Protocol: IPv4
-Sender's IP address: 195.62.2.44
-Recipient's IP address: 195.62.2.9
-Size: 180 bytes
-
-Frame 14
-Recipient's MAC address: 00:08:C7:8A:F2:A1
-Sender's MAC address: 00:08:02:BF:16:1B
-Type of frame: Ethernet DIX (Ethernet II)
-Protocol: IPv4
-Sender's IP address: 195.62.2.9
-Recipient's IP address: 195.62.2.44
-Size: 158 bytes
-
-Frame 15
-Recipient's MAC address: 00:08:02:BF:16:1B
-Sender's MAC address: 00:08:C7:8A:F2:A1
-Type of frame: Ethernet DIX (Ethernet II)
-Protocol: IPv4
-Sender's IP address: 195.62.2.44
-Recipient's IP address: 195.62.2.9
-Size: 208 bytes
-
-Frame 16
-Recipient's MAC address: 00:08:C7:8A:F2:A1
-Sender's MAC address: 00:08:02:BF:16:1B
-Type of frame: Ethernet DIX (Ethernet II)
-Protocol: IPv4
-Sender's IP address: 195.62.2.9
-Recipient's IP address: 195.62.2.44
-Size: 126 bytes
-
-Frame 17
-Recipient's MAC address: 00:08:02:BF:16:1B
-Sender's MAC address: 00:08:C7:8A:F2:A1
-Type of frame: Ethernet DIX (Ethernet II)
-Protocol: IPv4
-Sender's IP address: 195.62.2.44
-Recipient's IP address: 195.62.2.9
-Size: 180 bytes
-
-Frame 18
-Recipient's MAC address: 00:08:C7:8A:F2:A1
-Sender's MAC address: 00:08:02:BF:16:1B
-Type of frame: Ethernet DIX (Ethernet II)
-Protocol: IPv4
-Sender's IP address: 195.62.2.9
-Recipient's IP address: 195.62.2.44
-Size: 158 bytes
-
-Frame 19
-Recipient's MAC address: 00:08:02:BF:16:1B
-Sender's MAC address: 00:08:C7:8A:F2:A1
-Type of frame: Ethernet DIX (Ethernet II)
-Protocol: IPv4
-Sender's IP address: 195.62.2.44
-Recipient's IP address: 195.62.2.9
-Size: 208 bytes
+Recipient's IP address: 217.71.128.77
+Size: 90 bytes
 
 Number of frames: 19
 
 Number of frames of each type:
 
-Ethernet DIX (Ethernet II): 19
+Ethernet DIX (Ethernet II): 18
    Protocols: 
-      IPv4: 19
-      ARP: 0
+      IPv4: 16
+      ARP: 2
 Ethernet Raw 802.3 (Novell 802.3): 0
 Ethernet SNAP: 0
-Ethernet 802.2 / LLC: 0
+Ethernet 802.2 / LLC: 1
