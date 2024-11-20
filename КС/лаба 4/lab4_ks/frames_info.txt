@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 File name: ethers07.bin
 Frame 1 byte: 0
 Recipient's MAC address: 00:02:16:09:FA:40
@@ -54,6 +55,10 @@ Recipient's IP address: 195.62.2.42
 Size: 252 bytes
 
 Frame 7 byte: 1433
+=======
+File name: ethers06.bin
+Frame 1
+>>>>>>> Stashed changes
 Recipient's MAC address: 00:90:27:A1:36:D0
 Sender's MAC address: 00:02:16:09:FA:40
 Type of frame: Ethernet DIX (Ethernet II)
@@ -62,7 +67,11 @@ Sender's IP address: 81.181.78.206
 Recipient's IP address: 195.62.2.11
 Size: 218 bytes
 
+<<<<<<< Updated upstream
 Frame 8 byte: 1651
+=======
+Frame 2
+>>>>>>> Stashed changes
 Recipient's MAC address: 00:02:16:09:FA:40
 Sender's MAC address: 00:90:27:A1:36:D0
 Type of frame: Ethernet DIX (Ethernet II)
@@ -71,6 +80,7 @@ Sender's IP address: 195.62.2.11
 Recipient's IP address: 81.181.78.206
 Size: 66 bytes
 
+<<<<<<< Updated upstream
 Frame 9 byte: 1717
 Recipient's MAC address: FF:FF:FF:FF:FF:FF
 Sender's MAC address: 00:08:02:8F:DA:6E
@@ -182,3 +192,8 @@ Ethernet DIX (Ethernet II): 18
 Ethernet Raw 802.3 (Novell 802.3): 0
 Ethernet SNAP: 0
 Ethernet 802.2 / LLC: 1
+=======
+Frame 3
+Recipient's MAC address: 01:80:C2:00:00:00
+Sender's MAC address: 00:04:4D:8A:B0:D5
+>>>>>>> Stashed changes

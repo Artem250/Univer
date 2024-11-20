@@ -28,7 +28,11 @@ int main()
    string filepath;
    cout << "Enter the filename: " << endl;
    //cin >> filename;
+<<<<<<< Updated upstream
    filename = "ethers07.bin";
+=======
+   filename = "ethers06.bin";
+>>>>>>> Stashed changes
    output << "File name: " << filename << endl;
 
    filepath = "./stud_ethers_var2_1/";
@@ -48,7 +52,11 @@ int main()
    while (byte < data.size()) {
       n_frames++;
 
+<<<<<<< Updated upstream
       output << "Frame " << n_frames << " byte: " << byte << endl;
+=======
+      output << "Frame " << n_frames << /*"byte:" << byte <<*/ endl;
+>>>>>>> Stashed changes
       output << hex << uppercase;
 
       output << "Recipient's MAC address: ";
@@ -126,6 +134,8 @@ int main()
             n_llc++;
             output << "Type of frame: Ethernet 802.2/LLC" << endl;
             size = type_bytes + 14;
+            //size = LLC + 12;
+
 
          }
          output << "Size: " << size << " bytes" << endl;

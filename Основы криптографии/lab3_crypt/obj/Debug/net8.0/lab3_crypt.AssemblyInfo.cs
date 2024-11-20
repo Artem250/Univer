@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab3_crypt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03221a850f4710813dffd17601b6da4bdbb8e972")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab3_crypt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab3_crypt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
